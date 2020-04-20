@@ -98,6 +98,9 @@ nav ul {
   padding: 5rem;
 }
 
+
+/* Media Query */
+
 @media screen and (max-width: 932px) {
   html {
     font-size: 45%;
