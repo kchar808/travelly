@@ -98,6 +98,12 @@ nav ul {
   padding: 5rem;
 }
 
+/* Benefits Section */
+
+#locations {
+  min-height: 100vh;
+  background: url('/img/new-york-page.png');
+}
 
 /* Media Query */
 
