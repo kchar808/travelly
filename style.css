@@ -182,6 +182,9 @@ nav ul {
   width: 90%;
   margin: auto;
   display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
