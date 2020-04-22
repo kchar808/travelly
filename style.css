@@ -47,6 +47,11 @@ button {
   color: white;
   font-size: 1.8rem;
   cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #27394e;
 }
 
 /* Nav Section With HERO */
@@ -134,6 +139,15 @@ nav ul {
   right: 0%;
 }
 
+.moving-cloud-1 {
+
+}
+
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
+}
 /* Media Query */
 
 @media screen and (max-width: 932px) {
