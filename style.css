@@ -212,6 +212,21 @@ nav ul {
   padding: 1rem;
 }
 
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('/img/contact-mountain.png');
+  background-repeat: no-repeat ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 932px) {
