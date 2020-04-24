@@ -59,6 +59,9 @@ button:hover {
 .main-head {
   background: #131c27;
   color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 
 nav {
@@ -243,6 +246,7 @@ nav ul {
 .form-wrapper label {
   margin: 0rem 3rem;
 }
+
 
 .form-wrapper button {
   width: 100%;
